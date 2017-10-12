@@ -1,6 +1,7 @@
 import hug
 from google.cloud.datastore import Client, Key, Query, Entity
 
+# put this comment in to test git diff
 
 @hug.get('/dog')
 def get_dog(id: hug.types.number):
